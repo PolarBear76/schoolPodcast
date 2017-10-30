@@ -8,20 +8,6 @@ var topBL = document.getElementById("topBL");
 var lowBL = document.getElementById("lowBL");
 var panelIsExtended = false;
 
-window.onresize = function() {
-  if(window.innerWidth > 550) {
-    $(dropDownPanel).show();
-    if(panelIsExtended){
-      rotateMenuButton();
-    }
-    } else {
-    $(dropDownPanel).hide();
-    if(panelIsExtended){
-      rotateMenuButton();
-    }
-    }
-  }
-
 function rotateMenuButton() {
   if (!panelIsExtended) {
     $(topBL).animate({ top: '3.5px' });
