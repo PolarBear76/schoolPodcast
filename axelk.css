@@ -1,6 +1,7 @@
 body {
   font-weight: lighter;
   font-family: 'avenir', 'helvetica-neue', 'helvetica', sans-serif;
+  font-size: 14px;
   background-color: #2E3034;
   color: white;
 }
@@ -70,7 +71,7 @@ footer {
   height: 20px;
 }
 
-@media (max-width: 15cm) {
+@media (max-width: 35em) {
   #main {
     padding-top: 10px;
   }
