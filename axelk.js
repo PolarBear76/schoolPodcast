@@ -32,6 +32,10 @@ function rotateMenuButton() {
   }
 }
 
+$("#title").on('click', function () {
+  switchPages('papersPage');
+});
+
   $("#menuButton").on('click', function () {
     $(dropDownPanel).slideToggle("slow");
     rotateMenuButton();
