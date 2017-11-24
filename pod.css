@@ -104,11 +104,6 @@ footer {
   height: 5px;
 	width: 30px;
 	margin-top: 5px;
-	/*padding-top: 7px;
-	padding-bottom: 2px;*/
-  /*position: absolute;
-  top: 150px;
-  left: 200px;*/
   position: relative;
 }
 
@@ -128,4 +123,17 @@ footer {
 
 #lowBL {
 	top: 7px;
+}
+
+.profil {
+  width: auto;
+  height: 300px;
+  display: inline-block;
+}
+
+#profileDiv {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 300px;
 }
