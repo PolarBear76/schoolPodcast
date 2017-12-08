@@ -1,5 +1,6 @@
 document.getElementById('contactPage').style.display = "none";
 document.getElementById('aboutPage').style.display = "none";
+document.getElementById('manus').style.display = "none";
 
 var dropDownPanel = document.getElementById('dropDownPanel');
 var materialIcon = document.getElementById('materialIcon');
@@ -21,7 +22,7 @@ window.onresize = function() {
     }
     }
   }
-  
+
 function rotateMenuButton() {
   if (!panelIsExtended) {
     $(topBL).animate({ top: '3.5px' });
@@ -49,6 +50,10 @@ function rotateMenuButton() {
 $("#title").on('click', function () {
   switchPages('papersPage');
 });
+
+  $("#manusButton").on('click', function () {
+    $("#manus").slideToggle("slow");
+  });
 
   $("#menuButton").on('click', function () {
     $(dropDownPanel).slideToggle("slow");
